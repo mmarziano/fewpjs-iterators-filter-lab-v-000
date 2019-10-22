@@ -9,6 +9,6 @@ function fuzzyMatch(arr, input='') {
 }
 
 function matchName(arr, input) {
-  arr.filter(n => n.toLowerCase() === name.toLowerCase())
+  arr.filter(n => n.toLowerCase() === input.toLowerCase())
   
 }
