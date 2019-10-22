@@ -8,7 +8,7 @@ function fuzzyMatch(arr, input='') {
   return arr.filter(word => word.slice(0, input.length) === input)
 }
 
-function matchName() {
+function matchName(arr, input) {
   
   
 }
