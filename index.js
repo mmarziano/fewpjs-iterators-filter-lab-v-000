@@ -6,7 +6,8 @@ function findMatching(arr, name) {
 
 function fuzzyMatch(arr, input) {
   let w = arr.map(word => word.slice(0, input.length))
-  return w.filter(l => l === input)
+  let f = w.filter(l => l === input)
+  return arr.filter(w => w === f)
 }
 
 function matchName() {
